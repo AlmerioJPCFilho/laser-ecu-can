@@ -10,6 +10,8 @@
             "includePath": [
                 "/home/hpassos/Documentos/laser-ecu-can/Bancada_ECU/include",
                 "/home/hpassos/Documentos/laser-ecu-can/Bancada_ECU/src",
+                "/home/hpassos/Documentos/laser-ecu-can/Bancada_ECU/.pio/libdeps/esp32dev/autowp-mcp2515",
+                "/home/hpassos/.platformio/packages/framework-arduinoespressif32/libraries/SPI/src",
                 "/home/hpassos/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/newlib/platform_include",
                 "/home/hpassos/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/freertos/include",
                 "/home/hpassos/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/freertos/include/esp_additions/freertos",
@@ -228,7 +230,6 @@
                 "/home/hpassos/.platformio/packages/framework-arduinoespressif32/libraries/RainMaker/src",
                 "/home/hpassos/.platformio/packages/framework-arduinoespressif32/libraries/SD/src",
                 "/home/hpassos/.platformio/packages/framework-arduinoespressif32/libraries/SD_MMC/src",
-                "/home/hpassos/.platformio/packages/framework-arduinoespressif32/libraries/SPI/src",
                 "/home/hpassos/.platformio/packages/framework-arduinoespressif32/libraries/SPIFFS/src",
                 "/home/hpassos/.platformio/packages/framework-arduinoespressif32/libraries/SimpleBLE/src",
                 "/home/hpassos/.platformio/packages/framework-arduinoespressif32/libraries/Ticker/src",
@@ -246,6 +247,8 @@
                 "path": [
                     "/home/hpassos/Documentos/laser-ecu-can/Bancada_ECU/include",
                     "/home/hpassos/Documentos/laser-ecu-can/Bancada_ECU/src",
+                    "/home/hpassos/Documentos/laser-ecu-can/Bancada_ECU/.pio/libdeps/esp32dev/autowp-mcp2515",
+                    "/home/hpassos/.platformio/packages/framework-arduinoespressif32/libraries/SPI/src",
                     "/home/hpassos/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/newlib/platform_include",
                     "/home/hpassos/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/freertos/include",
                     "/home/hpassos/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/freertos/include/esp_additions/freertos",
@@ -464,7 +467,6 @@
                     "/home/hpassos/.platformio/packages/framework-arduinoespressif32/libraries/RainMaker/src",
                     "/home/hpassos/.platformio/packages/framework-arduinoespressif32/libraries/SD/src",
                     "/home/hpassos/.platformio/packages/framework-arduinoespressif32/libraries/SD_MMC/src",
-                    "/home/hpassos/.platformio/packages/framework-arduinoespressif32/libraries/SPI/src",
                     "/home/hpassos/.platformio/packages/framework-arduinoespressif32/libraries/SPIFFS/src",
                     "/home/hpassos/.platformio/packages/framework-arduinoespressif32/libraries/SimpleBLE/src",
                     "/home/hpassos/.platformio/packages/framework-arduinoespressif32/libraries/Ticker/src",
