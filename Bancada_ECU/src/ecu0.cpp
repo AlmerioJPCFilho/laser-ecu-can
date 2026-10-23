@@ -18,7 +18,7 @@ void setup(){
 
     SPI.begin(SCK_PIN, MISO_PIN, MOSI_PIN, CS_PIN);
 
-    while(CAN.begin(MCP_ANY, CAN_500KBPS, MCP_8MHZ) != CAN_OK){
+    while(CAN.begin(MCP_STD, CAN_500KBPS, MCP_8MHZ) != CAN_OK){
         Serial.println("[ECU-0] Erro ao inicializar MCP2515. Tentando novamente...");
         delay(500);
     }
@@ -40,8 +40,8 @@ void loop(){
     dados[6] = 0;
     dados[7] = 0;
 
-    // Envia o pacote: ID 0x0A, Standard ID (0), DLC (8 bytes)
-    byte status = CAN.sendMsgBuf(0x0A, 0, 8, dados);
+    // Envia o pacote: ID 0x000A, Standard ID (0), DLC (8 bytes)
+    byte status = CAN.sendMsgBuf(0x000A, 0, 8, dados);
 
     // Confirma a transmissao
     if(status == CAN_OK){
