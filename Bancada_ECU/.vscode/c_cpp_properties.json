@@ -8,9 +8,9 @@
         {
             "name": "PlatformIO",
             "includePath": [
-                "D:/almer/Desktop/faculdade/laser-ecu-can/Bancada_ECU/include",
-                "D:/almer/Desktop/faculdade/laser-ecu-can/Bancada_ECU/src",
-                "D:/almer/Desktop/faculdade/laser-ecu-can/Bancada_ECU/.pio/libdeps/ecu0/mcp_can",
+                "C:/Users/almer/Desktop/faculdade/laser-ecu-can/Bancada_ECU/include",
+                "C:/Users/almer/Desktop/faculdade/laser-ecu-can/Bancada_ECU/src",
+                "C:/Users/almer/Desktop/faculdade/laser-ecu-can/Bancada_ECU/.pio/libdeps/ecu0/mcp_can",
                 "C:/Users/almer/.platformio/packages/framework-arduinoespressif32/libraries/SPI/src",
                 "C:/Users/almer/.platformio/packages/framework-arduinoespressif32/cores/esp32",
                 "C:/Users/almer/.platformio/packages/framework-arduinoespressif32-esp32-libs/dio_qspi/include",
@@ -63,9 +63,9 @@
             "browse": {
                 "limitSymbolsToIncludedHeaders": true,
                 "path": [
-                    "D:/almer/Desktop/faculdade/laser-ecu-can/Bancada_ECU/include",
-                    "D:/almer/Desktop/faculdade/laser-ecu-can/Bancada_ECU/src",
-                    "D:/almer/Desktop/faculdade/laser-ecu-can/Bancada_ECU/.pio/libdeps/ecu0/mcp_can",
+                    "C:/Users/almer/Desktop/faculdade/laser-ecu-can/Bancada_ECU/include",
+                    "C:/Users/almer/Desktop/faculdade/laser-ecu-can/Bancada_ECU/src",
+                    "C:/Users/almer/Desktop/faculdade/laser-ecu-can/Bancada_ECU/.pio/libdeps/ecu0/mcp_can",
                     "C:/Users/almer/.platformio/packages/framework-arduinoespressif32/libraries/SPI/src",
                     "C:/Users/almer/.platformio/packages/framework-arduinoespressif32/cores/esp32",
                     "C:/Users/almer/.platformio/packages/framework-arduinoespressif32-esp32-libs/dio_qspi/include",
