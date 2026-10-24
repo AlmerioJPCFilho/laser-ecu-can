@@ -33,7 +33,7 @@ void setup(){
 }
 
 void loop(){
-    byte dados[8];
+    byte dados[8] = {0};
     unsigned long id;
     byte len;
 

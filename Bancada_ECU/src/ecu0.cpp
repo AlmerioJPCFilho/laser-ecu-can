@@ -28,27 +28,22 @@ void setup(){
 }
 
 void loop(){
-    byte dados[8];
-
+    byte dados[8] = {0};
     dados[0] = contador & 0xFF; // Isola os bits menos significativos (LSB)
     dados[1] = (contador >> 8) & 0xFF; // Isola os bits mais significativos (MSB)
-    // Preenche os bytes restantes com 0
-    dados[2] = 0;
-    dados[3] = 0;
-    dados[4] = 0;
-    dados[5] = 0;
-    dados[6] = 0;
-    dados[7] = 0;
 
-    // Envia o pacote: ID 0x000A, Standard ID (0), DLC (8 bytes)
-    byte status = CAN.sendMsgBuf(0x000A, 0, 8, dados);
+    // Envia os pacotes: ID 0x000A (ECU 1) e ID 0x000C (ECU 2)
+    byte statusA = CAN.sendMsgBuf(0x000A, 0, 8, dados);
+    byte statusC = CAN.sendMsgBuf(0x000C, 0, 8, dados);
 
     // Confirma a transmissao
-    if(status == CAN_OK){
+    if(statusA == CAN_OK && statusC == CAN_OK){
         Serial.print("[ECU-0] Dados enviados com sucesso! Valor: ");
         Serial.println(contador);
-    }else{
-        Serial.println("[ECU-0] Falha ao enviar dados");
+    }else if(statusA != CAN_OK){
+        Serial.println("[ECU-0] Falha ao enviar dados para ECU 1");
+    }else if(statusC != CAN_OK){
+        Serial.println("[ECU-0] Falha ao enviar dados para ECU 2");
     }
 
     if(subindo){
